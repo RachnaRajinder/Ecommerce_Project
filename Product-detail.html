@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!------------header section------------->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Images_folder/pglogo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItem">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Product-detail.html">ProductDetails</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="Images_folder/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="Images_folder/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!------------Single product detail------------->
+    <div class="container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images_folder/iphone14promax.png" width="100%" id="product-img">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="Images_folder/iphone14promax2.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images_folder/iphone14promax3.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images_folder/iphone14promax4.png" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="Images_folder/iphone14promax5.png" width="100%" class="small-img">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p>Apple/Iphone</p>
+                <h1>Iphone 14 pro Max 128 GB</h1>
+                <h4>$1899.00</h4>
+                <select>
+                <option>Select Color</option>
+                <option>Rose Gold</option>
+                <option>Silver</option>
+                <option>Black</option>
+                <option>Mid Night Blue</option>
+                <option>Green</option>
+                <option>Purple</option>
+            </select>
+                <input type="number" value="1">
+                <a href="cart.html" class="btn">Add To Cart</a>
+                <h3>Product Details<i class="fa fa-indent"></i></h3><br>
+                <p> Display Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display
+                    <br>Camera 48MP Main | 12MP Ultra Wide | 12MP 2x Telephoto | Front 12MP camera ƒ/1.9 aperturer
+                    <br>ROM 128GB
+                    <br>Battery Built‑in rechargeable lithium‑ion battery
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--------------->
+    <div class="subcategory">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+    <!--------------->
+    <div class="subcategory">
+        <div class="row">
+            <div class="col-4">
+                <img src="Images_folder/iphone_14-removebg.png" alt="">
+                <h4>Iphone 14 </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images_folder/iphone13.png" alt="">
+                <h4>Iphone 13</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$850.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images_folder/s22ultra.png" alt="">
+                <h4>Galaxy S22 Ultra</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$1799.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images_folder/GalaxyZFlip4-removebg.png" alt="">
+                <h4>Galaxy Z Flip 4</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$1549.90</p>
+            </div>
+        </div>
+
+    </div>
+    <!--------------footer------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Images_folder/play-store.png" alt="">
+                        <img src="Images_folder/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images_folder/pglogo.png" alt="">
+                    <p>Our Purpose to sustainably Make the Pleasure And
+                        Benefits of Sports Accessible to the Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliates+</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                    </ul>
+                    <ul class="social_icon">
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-youtube"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>   
+                <!----------copyright------------->
+                <hr>
+                <p class ="copy-right">Copyright 2022 - By RachanKumar AshifMehammod</p>
+           
+        </div>
+    </div>
+    <!-----------menu toggle buttun-------------->
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+        MenuItem.style.maxHeight = "0px";
+        function menutoggle()
+        {
+            if(MenuItem.style.maxHeight == "0px"){
+                
+                MenuItem.style.maxHeight = "200px"
+            }
+            else{
+                MenuItem.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>

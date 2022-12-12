@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!------------header section------------->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Images_folder/pglogo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItem">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Product-detail.html">ProductDetails</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="Images_folder/cart.png" alt="" width="30px" height="30px"></a>
+            <img src="Images_folder/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!------------login detail------------->
+    <div class="login-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images_folder/loginpagepic-removebg-preview.png" alt="" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span>Login</span>
+                            <!----------<span>Register</span>--------->
+                            <hr id="symbol">
+                        </div>
+                        <form id="regform">
+                            <input type="text" placeholder="username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------footer------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Images_folder/play-store.png" alt="">
+                        <img src="Images_folder/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images_folder/pglogo.png" alt="">
+                    <p>Our Purpose to sustainably Make the Pleasure And
+                        Benefits of Sports Accessible to the Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliates+</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                        <li>Instagram</li>
+                    </ul>
+                    <ul class="social_icon">
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-youtube"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>   
+                <!----------copyright------------->
+                <hr>
+                <p class ="copy-right">Copyright 2022 - By RachanKumar AshifMehammod</p>
+           
+        </div>
+    </div>
+    <!-----------menu toggle buttun-------------->
+    <script>
+        var MenuItem = document.getElementById("MenuItem");
+        MenuItem.style.maxHeight = "0px";
+        function menutoggle()
+        {
+            if(MenuItem.style.maxHeight == "0px"){
+                
+                MenuItem.style.maxHeight = "200px"
+            }
+            else{
+                MenuItem.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
